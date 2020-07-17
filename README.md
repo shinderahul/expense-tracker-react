@@ -1,6 +1,6 @@
-# Breaking Bad Cast
+# Expense Tracker React
 
-Expense Tracker React App
+Expense Tracker React App which uses React Hooks (useState, useContext, useReducer) and Contex API.
 
 # Production [Link](#)
 
