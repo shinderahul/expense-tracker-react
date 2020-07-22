@@ -1,36 +1,34 @@
 {
-	"name": "expense-tracker-react",
-	"version": "0.1.0",
-	"private": true,
-	"description": "Expense Tracker React App which uses React Hooks (useState, useContext, useReducer) and Contex API.",
-	"dependencies": {
-		"@testing-library/jest-dom": "^4.2.4",
-		"@testing-library/react": "^9.3.2",
-		"@testing-library/user-event": "^7.1.2",
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1",
-		"react-scripts": "3.4.1",
-		"uuid": "^8.2.0"
-	},
+	"name": "expense-tracker-mern",
+	"version": "1.0.0",
+	"description": "Backend for expense tracker",
+	"main": "server.js",
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"start": "node server",
+		"server": "nodemon server"
 	},
-	"eslintConfig": {
-		"extends": "react-app"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shinderahul/expense-tracker-react.git"
 	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
+	"keywords": [
+		"NodeJS",
+		"MongoDB",
+		"ReactJs"
+	],
+	"author": "Rahul Shinde",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/shinderahul/expense-tracker-react/issues"
+	},
+	"homepage": "https://github.com/shinderahul/expense-tracker-react#readme",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"concurrently": "^5.2.0",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.25",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.4"
 	}
 }

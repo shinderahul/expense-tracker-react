@@ -1,6 +1,7 @@
-# Expense Tracker React
+# Expense Tracker MERN
 
-Expense Tracker React App which uses React Hooks (useState, useContext, useReducer) and Contex API.
+Expense Tracker MERN which uses React for front end and No
+deJS for back end.
 
 # Production [Link](#)
 
