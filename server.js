@@ -2,12 +2,17 @@ const express = require('express');
 const dotenv = require('dotenv');
 const colors = require('colors');
 const morgan = require('morgan');
+const connectDB = require('./config/db');
 
 dotenv.config({ path: './config/config.env' });
 
-const transactions = require('./routes/transactions');
+connectDB();
+
+const transactions = require('./routes/transaction');
 
 const app = express();
+
+app.use(express.json());
 
 app.use('/api/v1/transactions', transactions);
 
